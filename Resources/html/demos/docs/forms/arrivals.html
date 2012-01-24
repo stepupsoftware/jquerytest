@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BVS Arrival Form</title>
+	<link rel="stylesheet"  href="../../jquery.mobile-1.0.css" />
+	<link rel="stylesheet" href="../_assets/css/jqm-docs.css"/>
+	<script src="../../jquery.js"></script>
+	<script src="../../experiments/themeswitcher/jquery.mobile.themeswitcher.js"></script>
+	<script src="../_assets/js/jqm-docs.js"></script>
+	<script src="../../jquery.mobile-1.0.min.js"></script>
+</head>
+<body>
+
+	<div data-role="page" class="type-interior">
+
+	<div data-role="content">
+		<div class="content-primary">
+
+		<form action="#" method="get">
+
+		<div data-role="fieldcontain">
+			<label for="propertydetails" class="select">Property Details:</label>
+			<select name="propertydetails" id="propertydetails" data-native-menu="true">
+				<option>Property Details</option>
+				<option value="01">Detached House</option>
+				<option value="02">Detached Bungalow</option>
+				<option value="03">Semi-detached House</option>
+				<option value="04">Semi-detached Bungalow</option>
+				<option value="05">End-terraced House</option>
+				<option value="06">Mid-terraced House</option>
+				<option value="07">Flat/apartment</option>
+				<option value="08">Converted barn</option>
+				<option value="09">Office</option>
+				<option value="10">Shop</option>
+				<option value="11">Commercial Unit</option>
+				<option value="12">Static Caravan</option>					
+			</select>
+			<br />
+			<label for="wallconstruction" class="select">Wall Construction:</label>
+			<select name="wallconstruction" id="wallconstruction" data-native-menu="true">
+				<option>Wall Construction</option>
+				<option value="01">Brick</option>
+				<option value="02">Stone</option>
+				<option value="03">Block</option>
+				<option value="04">Rendered</option>
+				<option value="05">Steel cladding</option>
+				<option value="06">Mid-terraced House</option>
+				<option value="07">Concrete</option>
+				<option value="08">Timber frame</option>
+			</select>
+			<br />
+			<label for="roofconstruction" class="select">Roof Construction:</label>
+			<select name="wallconstruction" id="wallconstruction" data-native-menu="true">
+				<option>Roof Construction</option>
+				<option value="01">Tile</option>
+				<option value="02">Slate</option>
+				<option value="03">Felt</option>
+				<option value="04">Fibre Cement</option>
+				<option value="05">Steel</option>
+				<option value="06">Thatched</option>
+				<option value="07">Asphalt</option>
+				<option value="08">Single Ply</option>
+			</select>
+			<br />
+			<fieldset data-role="controlgroup">
+				<legend>Does the Property Have a Flat Roof:</legend>
+			    	<input type="radio" name="radio-choice-b" id="radio-choice-c" value="on" checked="checked" />
+			    		<label for="radio-choice-c">Yes</label>
+			    	<input type="radio" name="radio-choice-b" id="radio-choice-d" value="off" />
+			    		<label for="radio-choice-d">No</label>
+			</fieldset>
+			
+			<fieldset data-role="controlgroup">
+			    <legend>General Condition of Property:</legend>
+			        <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked" />
+			         	<label for="radio-choice-1">Good State of Repair</label>
+			        <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"  />
+			         	<label for="radio-choice-2">Fair State of Repair</label>
+			        <input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3"  />
+			         	<label for="radio-choice-3">Poor State of Repair</label>
+			    </fieldset>
+			    
+			<label for="numberofrooms" class="select">Number of Rooms:</label>
+			<select name="numberofrooms" id="numberofrooms" data-native-menu="true">
+				<option>Number of Rooms</option>
+				<option value="01">1</option>
+				<option value="02">2</option>
+				<option value="03">3</option>
+				<option value="04">4</option>
+				<option value="05">5</option>
+				<option value="06">6</option>
+				<option value="07">7</option>
+				<option value="08">8</option>
+			</select>
+
+		</div>
+		
+		<div data-role="fieldcontain">
+	         <label for="yearpropertybuilt">Year Property Built:</label>
+	         <input type="month" name="year" id="yearpropertybuilt" value=""  />
+		</div>
+
+		<div data-role="fieldcontain">
+	         <label for="periodofownership">Period of Ownership:</label>
+	         <input type="number" name="periodofownership" id="periodofownership" value=""  />
+			 <fieldset data-role="controlgroup" >
+	         	<input type="radio" name="radio-choice-period" id="radio-choice-period-months" value="on" checked="checked" />
+			 	<label for="radio-choice-period-months">Months</label>
+			 	<input type="radio" name="radio-choice-period" id="radio-choice-period-years" value="off" />
+			 	<label for="radio-choice-period-years">Years</label>
+			 </fieldset>
+		</div>
+
+		<div data-role="fieldcontain">
+	         <label for="ageofpointofclaim">Age at Point of Claim:</label>
+	         <input type="number" name="ageofpointofclaim" id="ageofpointofclaim" value=""  />
+			 <fieldset data-role="controlgroup" >
+	         	<input type="radio" name="radio-choice-age" id="radio-choice-age-months" value="on" checked="checked" />
+			 	<label for="radio-choice-age-months">Months</label>
+			 	<input type="radio" name="radio-choice-age" id="radio-choice-age-years" value="off" />
+			 	<label for="radio-choice-age-years">Years</label>
+			 </fieldset>
+		</div>
+		
+		<div data-role="fieldcontain">
+			<label for="attendance" class="select">Attendance:</label>
+			<select name="attendance" id="attendance" data-native-menu="true">
+				<option>Attendance</option>
+				<option value="01">Met with customer as agreed</option>
+				<option value="02">Met with customer representative as agreed</option>
+				<option value="03">Customer / representative did not attend - unable to contact</option>
+				<option value="04">Customer / representative did not attend - to be rearranged</option>
+				<option value="05">Customer / representative late for appointment</option>
+				<option value="06">Permission given to inspect without customer in atttendance</option>
+				<option value="07">Surveyor late - traffic</option>
+				<option value="08">Surveyor late - weather</option>
+				<option value="09">Surveyor late - previous appt overran</option>
+			</select>
+		</div>
+
+		<div class="ui-body ui-body-b">
+		<fieldset class="ui-grid-a">
+				<div class="ui-block-a"><button type="button" data-theme="d">Photo</button></div>
+				<div class="ui-block-b"><button type="button" data-theme="a">Dictation</button></div>
+	    </fieldset>
+		</div>
+
+
+		<div class="ui-body ui-body-b">
+		<fieldset class="ui-grid-a">
+				<div class="ui-block-a"><button type="submit" data-theme="d">Cancel</button></div>
+				<div class="ui-block-b"><button type="submit" data-theme="a">Submit</button></div>
+	    </fieldset>
+		</div>
+	</form>
+	</div><!--/content-primary -->		
+	
+</div><!-- /content -->
+
+<div data-role="footer" class="footer-docs" data-theme="c">
+		<p>&copy; BVS Ltd</p>
+</div>
+	
+</div><!-- /page -->
+
+</body>
+</html>
